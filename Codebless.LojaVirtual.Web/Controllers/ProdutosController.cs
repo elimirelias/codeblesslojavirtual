@@ -16,7 +16,7 @@ namespace Codebless.LojaVirtual.Web.Controllers
         public ActionResult Index()
         {
             _repositorio = new ProdutosRepositorio();
-            var produtos = _repositorio.Produtos; //.Take(10);
+            var produtos = _repositorio.Produtos; //.Take(10); seleciona os primeiros produtos (tipo Top(10) do SQL)
 
 
 
